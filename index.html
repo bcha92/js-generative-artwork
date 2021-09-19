@@ -1,0 +1,30 @@
+<!-- Generative Art "index.html" -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="controls">
+            <button class="button">GENERATE</button>
+            <div class="controls bars">
+                <label for="width">Width</label>
+                <input type="range" class="width" id="width" name="width" min="100" max="400" step="5" value="200" />
+            </div>
+            <div class="controls bars">
+                <label for="height">Height</label>
+                <input type="range" class="height" id="height" name="height" min="100" max="400" step="5" value="200" />
+            </div>
+            <div class="controls bars">
+                <label for="opacity">Opacity</label>
+                <input type="range" class="opacity" id="opacity" name="opacity" min="0" max="1" step="0.1" value="0.5" />
+            </div>
+            <div class="controls bars">
+                <label for="border-radius">Border Radius</label>
+                <input type="range" class="radius" id="border-radius" name="border-radius" min="0" max="100" step="1" value="100" />
+            </div>
+        </div>
+        <div class="canvas"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
